@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myptsan;
+}
+ul li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+@font-face{
+    font-family: myptsan;
+    src: url(ptsans.woff);
+}
+@font-face{
+    font-family: mypacifico;
+    src: url(pacifico.woff);
+}
+.container {
+    width: 85%;
+    margin: 0px auto;
+}
+.col-1{
+	width: 6.333333333%;
+	float: left;
+	margin:0 1%;
+}
+.col-2{
+	width: 14.66666667%;
+	float: left;
+	margin:0 1%;
+}
+.col-3{
+	width: 23%;
+	float: left;
+	margin:0 1%;
+}
+.col-4{
+	width: 31.33333333%;
+	float: left;
+	margin:0 1%;
+}
+.col-5{
+	width: 39.66666667%;
+	float: left;
+	margin:0 1%;
+}
+.col-6{
+	width: 48%;
+	float: left;
+	margin:0 1%;
+}
+.col-7{
+	width: 56.33333333%;
+	float: left;
+	margin:0 1%;
+}
+.col-8{
+	width: 64.66666667%;
+	float: left;
+	margin:0 1%;
+}
+.col-9{
+	width: 73%;
+	float: left;
+	margin:0 1%;
+}
+.col-10{
+	width: 81.33333333%;
+	float: left;
+	margin:0 1%;
+}
+.col-11{
+	width: 89.66666667%;
+	float: left;
+	margin:0 1%;
+}
+.col-12{
+	width: 98%;
+	float: left;
+	margin:0 1%;
+}
+.layout {
+    background-color: black;
+    float: left;
+    width: 100%;
+    padding: 4px 0px;
+}
+.info-menu-left{
+    text-align: left;
+}
+.info-menu-right {
+    text-align: right;
+}
+.info-menu-left span.name {
+    color: white;
+    font-weight: 700;
+}
+.info-menu-left a{
+    color: grey;
+    font-size: 13px;
+}
+.info-menu-right a{
+        color: grey;
+        text-align: right;
+        font-size: 13px;
+}
+ul.submenu-left li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+ul.submenu-left li a {
+    color: red;
+    display: block;
+}
+ul.submenu-left li.active{
+    border-bottom: 1px solid red;
+    line-height: 40px;
+}
+.searchmain input{
+    background: none;
+    outline: none;
+    box-shadow: inset 2px 1px 2px #cdcdcd;
+    width: 300px;
+    padding: 6px 6px;
+}
+.logo {
+    margin: 20px 0px;
+}
+.searchmain {
+    margin: 55px 0px;
+}
+.menu {
+    margin: 55px 0px;
+    font-weight: 700;
+}
+.searchmain input:focus{
+    background-color: white;
+}
+.searchmain input::placeholder{
+    color: #c1c0c5;
+    font-weight: 700;
+}
+.searchmain a{
+    color: grey;
+    font-weight: 700;
+    display: inline-block;
+    padding:  5px 5px;
+}
+.searchmain a:active{
+    background-color: white;
+    box-shadow: inset 2px 1px 2px #cdcdcd ;
+}
+.info-layout{
+    width: 100%;
+    float: left;
+    background-color: red;
+    padding: 20px 0px;
+}
+ul.sub-list li{
+    display: inline-block;   
+}
+ul.sub-list li span{
+    color: white;   
+}
+ul.sub-list li a{
+    color: white;   
+    font-weight: 700;
+}
+h1.title-info-list {
+    color: white;
+    font-weight: 700;
+    font-family: mypacifico;
+    letter-spacing: 4px;
+}
+.btn-add a {
+    display: inline-block;
+    font-weight: 700;
+    color: #f1e3e1;
+    background-color: #c00327   ;
+    padding: 17px 80px;
+    border-radius: 6px;
+}
+.btn-add {
+    text-align: center;
+}
+
+.btn-add a:hover {
+    background-color: #b23434;
+    box-shadow: inset 2px 3px 4px #cd3536;
+}
+.btn-add a:active{
+    background-color: #e23434;
+    box-shadow: inset 2px 3px 4px #90282c;
+}
+.btn-add p {
+    color: white;
+    font-size: 10px;
+}
+p.price-main {
+    color: black;
+    font-weight: 700;
+    padding: 12px 0px;
+    font-size: 20px;
+}
+span.sale {
+    color: grey;
+    text-decoration: line-through;
+}
+.pic-cover {
+    float: right;
+    margin-left: 8px;
+}
+p.article-text {
+    text-align: justify;
+    padding: 2px 4px;
+}
+.front-pic {
+    position: relative;
+}
+.icon-sale {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 225px;
+    overflow: hidden;	
+}
+.icon-sale i {
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 2px 35px;
+    transform: rotate(-45deg);  
+    left: -25px;
+    top: 22px;
+}
+.front-pic img{
+    border-radius: 8px;
+}
+.album-content p {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.album-content {
+    background: rgba(128, 128, 128, 0.6);
+}
+.rotation {
+    position: relative;
+}
+.behind-pic img{
+    border-radius: 8px;
+}
+.album-content {
+    background: rgba(128, 128, 128, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 16px 8px;
+}
+.behind-pic {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+}
+.rotation > * {
+    backface-visibility: hidden;
+}
+.rotation{
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.pic-cover:hover .rotation{
+    transform: rotateY(180deg);
+}
